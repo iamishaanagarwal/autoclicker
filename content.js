@@ -38,7 +38,7 @@ window.addEventListener("load", () => {
     if (hideSelector) {
       hideElement();
     }
-  }, 500); // Delay in case page content is lazy-loaded
+  }, 1000); // Delay in case page content is lazy-loaded
 });
 
 // Listen for messages from popup or background script
